@@ -17,7 +17,7 @@ client.subCommands = new Collection();
 
 const { connect } = require("mongoose");
 connect(client.config.DatabaseURL, {
-}).then(() => console.log("Club Bot is now connected to the database!"));
+}).then(() => console.log("The bot is now connected to the database!"));
 
 loadEvents(client);
 
